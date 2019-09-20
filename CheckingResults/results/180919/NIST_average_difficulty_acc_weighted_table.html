@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.12: http://docutils.sourceforge.net/" />
+<title></title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7614 2013-02-21 15:55:51Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title, .code .error {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { color: grey; } /* line numbers */
+pre.code, code { background-color: #eeeeee }
+pre.code .comment, code .comment { color: #5C6576 }
+pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
+pre.code .literal.string, code .literal.string { color: #0C5404 }
+pre.code .name.builtin, code .name.builtin { color: #352B84 }
+pre.code .deleted, code .deleted { background-color: #DEB0A1}
+pre.code .inserted, code .inserted { background-color: #A3D289}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+/* "booktabs" style (no vertical lines) */
+table.docutils.booktabs {
+  border: 0px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-collapse: collapse;
+}
+table.docutils.booktabs * {
+  border: 0px;
+}
+table.docutils.booktabs th {
+  border-bottom: thin solid;
+  text-align: left;
+}
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document">
+
+
+<!-- .. these are for the color scale "goodness of fit" -->
+<!-- .. This is for the ranking/gradient colors in the table cells. The function changes the class
+of the parents of the text/numbers that go in some table cells (as span elements), so that the cells themselves
+(parents) are assigned a certain style class (background color) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.ranking-top-1').parent().addClass('ranking-top-1-parent');
+        $('.ranking-top-2').parent().addClass('ranking-top-2-parent');
+        $('.ranking-med-3').parent().addClass('ranking-med-3-parent');
+        $('.ranking-low-4').parent().addClass('ranking-low-4-parent');
+        $('.ranking-low-5').parent().addClass('ranking-low-5-parent');
+    });
+</script>
+<style>
+  .ranking-top-1-parent {background-color:#fef0d9;}
+  .ranking-top-2-parent {background-color:#fdcc8a;}
+  .ranking-med-3-parent {background-color:#fc8d59;}
+  .ranking-low-4-parent {background-color:#e34a33;}
+  .ranking-low-5-parent {background-color:#b30000;}
+</style><table border="1" class="docutils">
+<colgroup>
+<col width="17%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+<col width="5%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">&nbsp;</th>
+<th class="head">lm</th>
+<th class="head">trf</th>
+<th class="head">dogbox</th>
+<th class="head">BFGS</th>
+<th class="head">Conjugate gradient (Fletcher-Reeves imp.)</th>
+<th class="head">Conjugate gradient (Polak-Ribiere imp.)</th>
+<th class="head">Damped GaussNewton</th>
+<th class="head">Levenberg-Marquardt</th>
+<th class="head">Levenberg-MarquardtMD</th>
+<th class="head">Simplex</th>
+<th class="head">SteepestDescent</th>
+<th class="head">Trust Region</th>
+<th class="head">amoeba</th>
+<th class="head">lm</th>
+<th class="head">newton</th>
+<th class="head">de</th>
+<th class="head">pt</th>
+<th class="head">mp</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td><a class="reference external" href="/home/dgk98065/fitbenchmarking/results/NIST_average_difficulty/support_pages/nist_average_difficulty_enso_1.html">ENSO 1</a></td>
+<td><span class="ranking-top-1">1023 (1.037)</span></td>
+<td><span class="ranking-top-1">1023 (1.037)</span></td>
+<td><span class="ranking-top-1">1023 (1.037)</span></td>
+<td><span class="ranking-top-1">985.9 (1)</span></td>
+<td><span class="ranking-top-1">1025 (1.04)</span></td>
+<td><span class="ranking-top-1">1024 (1.039)</span></td>
+<td><span class="ranking-top-1">1024 (1.039)</span></td>
+<td><span class="ranking-top-1">1024 (1.038)</span></td>
+<td><span class="ranking-top-1">1024 (1.038)</span></td>
+<td><span class="ranking-top-1">1023 (1.038)</span></td>
+<td><span class="ranking-top-1">1032 (1.047)</span></td>
+<td><span class="ranking-top-1">1024 (1.039)</span></td>
+<td><span class="ranking-top-1">1034 (1.048)</span></td>
+<td><span class="ranking-top-1">1023 (1.038)</span></td>
+<td><span class="ranking-top-1">1023 (1.038)</span></td>
+<td><span class="ranking-top-1">1023 (1.037)</span></td>
+<td><span class="ranking-top-2">1154 (1.171)</span></td>
+<td><span class="ranking-top-1">1023 (1.037)</span></td>
+</tr>
+<tr><td><a class="reference external" href="/home/dgk98065/fitbenchmarking/results/NIST_average_difficulty/support_pages/nist_average_difficulty_enso_2.html">ENSO 2</a></td>
+<td><span class="ranking-top-2">1023 (1.118)</span></td>
+<td><span class="ranking-top-2">1023 (1.118)</span></td>
+<td><span class="ranking-top-2">1023 (1.118)</span></td>
+<td><span class="ranking-top-2">1022 (1.117)</span></td>
+<td><span class="ranking-top-2">1023 (1.118)</span></td>
+<td><span class="ranking-top-2">1023 (1.118)</span></td>
+<td><span class="ranking-top-2">1024 (1.119)</span></td>
+<td><span class="ranking-top-2">1023 (1.119)</span></td>
+<td><span class="ranking-top-2">1024 (1.119)</span></td>
+<td><span class="ranking-top-2">1022 (1.117)</span></td>
+<td><span class="ranking-top-2">1023 (1.118)</span></td>
+<td><span class="ranking-top-2">1023 (1.118)</span></td>
+<td><span class="ranking-top-2">1023 (1.118)</span></td>
+<td><span class="ranking-top-2">1023 (1.118)</span></td>
+<td><span class="ranking-top-2">1023 (1.118)</span></td>
+<td><span class="ranking-med-3">1509 (1.649)</span></td>
+<td><span class="ranking-top-1">915 (1)</span></td>
+<td><span class="ranking-top-2">1023 (1.118)</span></td>
+</tr>
+<tr><td><a class="reference external" href="/home/dgk98065/fitbenchmarking/results/NIST_average_difficulty/support_pages/nist_average_difficulty_gauss3_1.html">Gauss3 1</a></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+<td><span class="ranking-low-5">2.174e+04 (15.88)</span></td>
+<td><span class="ranking-low-5">5357 (3.912)</span></td>
+<td><span class="ranking-low-4">3490 (2.549)</span></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+<td><span class="ranking-top-1">1379 (1.007)</span></td>
+<td><span class="ranking-low-5">2.173e+04 (15.87)</span></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+<td><span class="ranking-low-5">2.103e+04 (15.36)</span></td>
+<td><span class="ranking-low-5">1.891e+04 (13.81)</span></td>
+<td><span class="ranking-low-5">1.891e+04 (13.81)</span></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+</tr>
+<tr><td><a class="reference external" href="/home/dgk98065/fitbenchmarking/results/NIST_average_difficulty/support_pages/nist_average_difficulty_gauss3_2.html">Gauss3 2</a></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+<td><span class="ranking-low-5">4476 (3.269)</span></td>
+<td><span class="ranking-low-5">4638 (3.387)</span></td>
+<td><span class="ranking-low-5">4430 (3.235)</span></td>
+<td><span class="ranking-low-5">8.752e+04 (63.92)</span></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+<td><span class="ranking-top-1">1484 (1.084)</span></td>
+<td><span class="ranking-low-5">1.124e+04 (8.208)</span></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+<td><span class="ranking-low-5">1.104e+04 (8.064)</span></td>
+<td><span class="ranking-low-5">1.4e+04 (10.22)</span></td>
+<td><span class="ranking-low-5">1.4e+04 (10.22)</span></td>
+<td><span class="ranking-top-1">1369 (1)</span></td>
+</tr>
+<tr><td><a class="reference external" href="/home/dgk98065/fitbenchmarking/results/NIST_average_difficulty/support_pages/nist_average_difficulty_hahn1_1.html">Hahn1 1</a></td>
+<td><span class="ranking-low-5">nan (nan)</span></td>
+<td><span class="ranking-top-1">1.611 (1)</span></td>
+<td><span class="ranking-low-5">38.28 (23.76)</span></td>
+<td><span class="ranking-low-5">5.069e+04 (3.147e+04)</span></td>
+<td><span class="ranking-low-5">3.398e+04 (2.109e+04)</span></td>
+<td><span class="ranking-low-5">442.9 (274.9)</span></td>
+<td><span class="ranking-low-5">44.06 (27.35)</span></td>
+<td><span class="ranking-low-5">34.32 (21.31)</span></td>
+<td><span class="ranking-top-1">1.614 (1.002)</span></td>
+<td><span class="ranking-low-5">903.5 (560.8)</span></td>
+<td><span class="ranking-low-5">8991 (5581)</span></td>
+<td><span class="ranking-top-1">1.614 (1.002)</span></td>
+<td><span class="ranking-low-5">9.957 (6.181)</span></td>
+<td><span class="ranking-low-5">36.97 (22.95)</span></td>
+<td><span class="ranking-low-5">3.159e+04 (1.961e+04)</span></td>
+<td><span class="ranking-low-5">159.7 (99.13)</span></td>
+<td><span class="ranking-low-5">3.098e+06 (1.923e+06)</span></td>
+<td><span class="ranking-low-5">42.05 (26.1)</span></td>
+</tr>
+<tr><td><a class="reference external" href="/home/dgk98065/fitbenchmarking/results/NIST_average_difficulty/support_pages/nist_average_difficulty_hahn1_2.html">Hahn1 2</a></td>
+<td><span class="ranking-top-1">1.614 (1.002)</span></td>
+<td><span class="ranking-top-1">1.611 (1)</span></td>
+<td><span class="ranking-top-1">1.611 (1)</span></td>
+<td><span class="ranking-low-5">6753 (4192)</span></td>
+<td><span class="ranking-low-5">33.63 (20.88)</span></td>
+<td><span class="ranking-low-5">53.77 (33.38)</span></td>
+<td><span class="ranking-top-1">1.614 (1.002)</span></td>
+<td><span class="ranking-top-1">1.614 (1.002)</span></td>
+<td><span class="ranking-top-1">1.614 (1.002)</span></td>
+<td><span class="ranking-low-5">287.6 (178.5)</span></td>
+<td><span class="ranking-low-5">7379 (4581)</span></td>
+<td><span class="ranking-top-1">1.614 (1.002)</span></td>
+<td><span class="ranking-top-1">1.614 (1.002)</span></td>
+<td><span class="ranking-top-1">1.614 (1.002)</span></td>
+<td><span class="ranking-low-5">2.093e+06 (1.3e+06)</span></td>
+<td><span class="ranking-low-5">70.87 (43.99)</span></td>
+<td><span class="ranking-low-5">2.093e+06 (1.3e+06)</span></td>
+<td><span class="ranking-top-1">1.614 (1.002)</span></td>
+</tr>
+<tr><td><a class="reference external" href="/home/dgk98065/fitbenchmarking/results/NIST_average_difficulty/support_pages/nist_average_difficulty_kirby2_1.html">Kirby2 1</a></td>
+<td><span class="ranking-top-1">55.59 (1)</span></td>
+<td><span class="ranking-top-1">55.59 (1)</span></td>
+<td><span class="ranking-top-1">55.59 (1)</span></td>
+<td><span class="ranking-low-5">6186 (111.3)</span></td>
+<td><span class="ranking-low-5">1032 (18.56)</span></td>
+<td><span class="ranking-low-5">920.6 (16.57)</span></td>
+<td><span class="ranking-top-1">55.57 (1)</span></td>
+<td><span class="ranking-top-1">55.59 (1)</span></td>
+<td><span class="ranking-top-1">55.57 (1)</span></td>
+<td><span class="ranking-low-5">8487 (152.7)</span></td>
+<td><span class="ranking-low-5">2181 (39.24)</span></td>
+<td><span class="ranking-top-1">55.57 (1)</span></td>
+<td><span class="ranking-top-1">55.59 (1)</span></td>
+<td><span class="ranking-top-1">55.59 (1)</span></td>
+<td><span class="ranking-low-5">394.1 (7.092)</span></td>
+<td><span class="ranking-top-1">55.59 (1)</span></td>
+<td><span class="ranking-low-5">3.733e+05 (6717)</span></td>
+<td><span class="ranking-top-1">55.59 (1)</span></td>
+</tr>
+<tr><td><a class="reference external" href="/home/dgk98065/fitbenchmarking/results/NIST_average_difficulty/support_pages/nist_average_difficulty_kirby2_2.html">Kirby2 2</a></td>
+<td><span class="ranking-top-1">55.59 (1.044)</span></td>
+<td><span class="ranking-top-1">55.59 (1.044)</span></td>
+<td><span class="ranking-top-1">55.59 (1.044)</span></td>
+<td><span class="ranking-low-5">499.6 (9.386)</span></td>
+<td><span class="ranking-low-4">95.52 (1.795)</span></td>
+<td><span class="ranking-low-4">118 (2.217)</span></td>
+<td><span class="ranking-top-1">55.58 (1.044)</span></td>
+<td><span class="ranking-top-1">55.58 (1.044)</span></td>
+<td><span class="ranking-top-1">55.58 (1.044)</span></td>
+<td><span class="ranking-top-1">53.22 (1)</span></td>
+<td><span class="ranking-low-5">483.4 (9.083)</span></td>
+<td><span class="ranking-top-1">55.58 (1.044)</span></td>
+<td><span class="ranking-top-1">55.59 (1.044)</span></td>
+<td><span class="ranking-top-1">55.59 (1.044)</span></td>
+<td><span class="ranking-low-5">1278 (24.01)</span></td>
+<td><span class="ranking-top-1">55.59 (1.044)</span></td>
+<td><span class="ranking-low-5">987.7 (18.56)</span></td>
+<td><span class="ranking-top-1">55.59 (1.044)</span></td>
+</tr>
+<tr><td><a class="reference external" href="/home/dgk98065/fitbenchmarking/results/NIST_average_difficulty/support_pages/nist_average_difficulty_lanczos1_1.html">Lanczos1 1</a></td>
+<td><span class="ranking-top-1">1.466e-25 (1)</span></td>
+<td><span class="ranking-top-1">1.467e-25 (1.001)</span></td>
+<td><span class="ranking-low-5">1.364e-21 (9306)</span></td>
+<td><span class="ranking-low-5">1.436 (9.794e+24)</span></td>
+<td><span class="ranking-low-5">0.0001892 (1.291e+21)</span></td>
+<td><span class="ranking-low-5">0.0002745 (1.873e+21)</span></td>
+<td><span class="ranking-low-5">1.471e-18 (1.004e+07)</span></td>
+<td><span class="ranking-low-5">9.372e-20 (6.394e+05)</span></td>
+<td><span class="ranking-low-5">3.258e-19 (2.223e+06)</span></td>
+<td><span class="ranking-low-5">0.01155 (7.881e+22)</span></td>
+<td><span class="ranking-low-5">0.004946 (3.374e+22)</span></td>
+<td><span class="ranking-low-5">3.143e-17 (2.145e+08)</span></td>
+<td><span class="ranking-low-5">4.148e-08 (2.83e+17)</span></td>
+<td><span class="ranking-top-1">1.467e-25 (1.001)</span></td>
+<td><span class="ranking-low-5">0.001843 (1.257e+22)</span></td>
+<td><span class="ranking-low-5">5.529e-06 (3.772e+19)</span></td>
+<td><span class="ranking-low-5">269.8 (1.84e+27)</span></td>
+<td><span class="ranking-top-1">1.467e-25 (1.001)</span></td>
+</tr>
+<tr><td><a class="reference external" href="/home/dgk98065/fitbenchmarking/results/NIST_average_difficulty/support_pages/nist_average_difficulty_lanczos1_2.html">Lanczos1 2</a></td>
+<td><span class="ranking-top-1">1.466e-25 (1)</span></td>
+<td><span class="ranking-top-1">1.466e-25 (1)</span></td>
+<td><span class="ranking-top-1">1.467e-25 (1.001)</span></td>
+<td><span class="ranking-low-5">0.006227 (4.249e+22)</span></td>
+<td><span class="ranking-low-5">0.0003677 (2.509e+21)</span></td>
+<td><span class="ranking-low-5">0.0004625 (3.155e+21)</span></td>
+<td><span class="ranking-low-5">4.756e-21 (3.245e+04)</span></td>
+<td><span class="ranking-low-5">4.756e-21 (3.245e+04)</span></td>
+<td><span class="ranking-low-5">7.437e-20 (5.074e+05)</span></td>
+<td><span class="ranking-low-5">0.0001408 (9.603e+20)</span></td>
+<td><span class="ranking-low-5">0.0219 (1.494e+23)</span></td>
+<td><span class="ranking-low-5">4.42e-14 (3.016e+11)</span></td>
+<td><span class="ranking-low-5">2.029e-07 (1.384e+18)</span></td>
+<td><span class="ranking-top-1">1.467e-25 (1.001)</span></td>
+<td><span class="ranking-low-5">1.037e-05 (7.075e+19)</span></td>
+<td><span class="ranking-low-5">5.521e-06 (3.767e+19)</span></td>
+<td><span class="ranking-low-5">78.79 (5.376e+26)</span></td>
+<td><span class="ranking-top-1">1.466e-25 (1.001)</span></td>
+</tr>
+<tr><td><a class="reference external" href="/home/dgk98065/fitbenchmarking/results/NIST_average_difficulty/support_pages/nist_average_difficulty_lanczos2_1.html">Lanczos2 1</a></td>
+<td><span class="ranking-top-1">2.356e-11 (1)</span></td>
+<td><span class="ranking-top-1">2.356e-11 (1)</span></td>
+<td><span class="ranking-top-1">2.356e-11 (1)</span></td>
+<td><span class="ranking-low-5">1.436 (6.093e+10)</span></td>
+<td><span class="ranking-low-5">0.000194 (8.236e+06)</span></td>
+<td><span class="ranking-low-5">0.000239 (1.014e+07)</span></td>
+<td><span class="ranking-top-1">2.356e-11 (1)</span></td>
+<td><span class="ranking-top-1">2.356e-11 (1)</span></td>
+<td><span class="ranking-top-1">2.356e-11 (1)</span></td>
+<td><span class="ranking-low-5">0.01155 (4.903e+08)</span></td>
+<td><span class="ranking-low-5">0.005254 (2.23e+08)</span></td>
+<td><span class="ranking-low-4">4.265e-11 (1.81)</span></td>
+<td><span class="ranking-low-5">2.558e-08 (1086)</span></td>
+<td><span class="ranking-top-1">2.356e-11 (1)</span></td>
+<td><span class="ranking-low-5">0.001845 (7.83e+07)</span></td>
+<td><span class="ranking-low-5">2.445e-07 (1.038e+04)</span></td>
+<td><span class="ranking-low-5">269.8 (1.145e+13)</span></td>
+<td><span class="ranking-top-1">2.356e-11 (1)</span></td>
+</tr>
+<tr><td><a class="reference external" href="/home/dgk98065/fitbenchmarking/results/NIST_average_difficulty/support_pages/nist_average_difficulty_lanczos2_2.html">Lanczos2 2</a></td>
+<td><span class="ranking-top-1">2.356e-11 (1)</span></td>
+<td><span class="ranking-top-1">2.356e-11 (1)</span></td>
+<td><span class="ranking-top-1">2.356e-11 (1)</span></td>
+<td><span class="ranking-low-5">0.006227 (2.643e+08)</span></td>
+<td><span class="ranking-low-5">0.0004193 (1.78e+07)</span></td>
+<td><span class="ranking-low-5">0.0004995 (2.12e+07)</span></td>
+<td><span class="ranking-top-1">2.356e-11 (1)</span></td>
+<td><span class="ranking-top-1">2.356e-11 (1)</span></td>
+<td><span class="ranking-top-1">2.356e-11 (1)</span></td>
+<td><span class="ranking-low-5">0.0001408 (5.977e+06)</span></td>
+<td><span class="ranking-low-5">0.02189 (9.291e+08)</span></td>
+<td><span class="ranking-top-1">2.361e-11 (1.002)</span></td>
+<td><span class="ranking-low-5">2.14e-07 (9082)</span></td>
+<td><span class="ranking-top-1">2.356e-11 (1)</span></td>
+<td><span class="ranking-low-5">4.002e-05 (1.699e+06)</span></td>
+<td><span class="ranking-low-5">2.427e-07 (1.03e+04)</span></td>
+<td><span class="ranking-low-5">78.79 (3.344e+12)</span></td>
+<td><span class="ranking-top-1">2.356e-11 (1)</span></td>
+</tr>
+<tr><td><a class="reference external" href="/home/dgk98065/fitbenchmarking/results/NIST_average_difficulty/support_pages/nist_average_difficulty_mgh17_1.html">MGH17 1</a></td>
+<td><span class="ranking-low-5">8.785e+04 (1.601e+09)</span></td>
+<td><span class="ranking-low-5">nan (nan)</span></td>
+<td><span class="ranking-low-5">1.188 (2.166e+04)</span></td>
+<td><span class="ranking-low-5">1.197 (2.181e+04)</span></td>
+<td><span class="ranking-low-5">1.186 (2.162e+04)</span></td>
+<td><span class="ranking-low-5">1.186 (2.162e+04)</span></td>
+<td><span class="ranking-low-5">nan (nan)</span></td>
+<td><span class="ranking-top-1">5.487e-05 (1)</span></td>
+<td><span class="ranking-low-5">0.04872 (887.9)</span></td>
+<td><span class="ranking-low-5">1.185 (2.159e+04)</span></td>
+<td><span class="ranking-low-5">1.184 (2.158e+04)</span></td>
+<td><span class="ranking-low-5">1.188 (2.166e+04)</span></td>
+<td><span class="ranking-med-3">8.065e-05 (1.47)</span></td>
+<td><span class="ranking-low-5">8.785e+04 (1.601e+09)</span></td>
+<td><span class="ranking-low-5">1.095 (1.996e+04)</span></td>
+<td><span class="ranking-low-5">1.188 (2.166e+04)</span></td>
+<td><span class="ranking-low-5">8.785e+04 (1.601e+09)</span></td>
+<td><span class="ranking-med-3">8.018e-05 (1.461)</span></td>
+</tr>
+<tr><td><a class="reference external" href="/home/dgk98065/fitbenchmarking/results/NIST_average_difficulty/support_pages/nist_average_difficulty_mgh17_2.html">MGH17 2</a></td>
+<td><span class="ranking-top-1">5.487e-05 (1)</span></td>
+<td><span class="ranking-top-1">5.487e-05 (1)</span></td>
+<td><span class="ranking-top-1">5.487e-05 (1)</span></td>
+<td><span class="ranking-low-5">0.1368 (2493)</span></td>
+<td><span class="ranking-med-3">7.907e-05 (1.441)</span></td>
+<td><span class="ranking-med-3">7.924e-05 (1.444)</span></td>
+<td><span class="ranking-top-1">5.487e-05 (1)</span></td>
+<td><span class="ranking-top-1">5.487e-05 (1)</span></td>
+<td><span class="ranking-top-1">5.487e-05 (1)</span></td>
+<td><span class="ranking-low-5">0.1112 (2026)</span></td>
+<td><span class="ranking-low-5">0.08504 (1550)</span></td>
+<td><span class="ranking-top-1">5.487e-05 (1)</span></td>
+<td><span class="ranking-top-1">5.487e-05 (1)</span></td>
+<td><span class="ranking-top-1">5.487e-05 (1)</span></td>
+<td><span class="ranking-low-5">0.001055 (19.23)</span></td>
+<td><span class="ranking-top-1">5.487e-05 (1)</span></td>
+<td><span class="ranking-low-5">0.879 (1.602e+04)</span></td>
+<td><span class="ranking-top-1">5.487e-05 (1)</span></td>
+</tr>
+<tr><td><a class="reference external" href="/home/dgk98065/fitbenchmarking/results/NIST_average_difficulty/support_pages/nist_average_difficulty_misra1c_1.html">Misra1c 1</a></td>
+<td><span class="ranking-top-1">0.0469 (1)</span></td>
+<td><span class="ranking-top-1">0.0469 (1)</span></td>
+<td><span class="ranking-top-1">0.0469 (1)</span></td>
+<td><span class="ranking-low-5">5.673 (121)</span></td>
+<td><span class="ranking-low-5">5.592 (119.2)</span></td>
+<td><span class="ranking-low-5">5.592 (119.2)</span></td>
+<td><span class="ranking-low-5">nan (nan)</span></td>
+<td><span class="ranking-top-1">0.0469 (1)</span></td>
+<td><span class="ranking-top-1">0.0469 (1)</span></td>
+<td><span class="ranking-top-1">0.04691 (1)</span></td>
+<td><span class="ranking-low-5">5.593 (119.2)</span></td>
+<td><span class="ranking-top-1">0.0469 (1)</span></td>
+<td><span class="ranking-top-1">0.0469 (1)</span></td>
+<td><span class="ranking-top-1">0.0469 (1)</span></td>
+<td><span class="ranking-low-5">290.3 (6189)</span></td>
+<td><span class="ranking-top-1">0.0469 (1)</span></td>
+<td><span class="ranking-low-5">1.16e+04 (2.474e+05)</span></td>
+<td><span class="ranking-top-1">0.0469 (1)</span></td>
+</tr>
+<tr><td><a class="reference external" href="/home/dgk98065/fitbenchmarking/results/NIST_average_difficulty/support_pages/nist_average_difficulty_misra1c_2.html">Misra1c 2</a></td>
+<td><span class="ranking-top-1">0.0469 (1.001)</span></td>
+<td><span class="ranking-top-1">0.0469 (1.001)</span></td>
+<td><span class="ranking-top-1">0.0469 (1.001)</span></td>
+<td><span class="ranking-low-5">0.3047 (6.5)</span></td>
+<td><span class="ranking-low-5">0.3052 (6.51)</span></td>
+<td><span class="ranking-low-5">0.3052 (6.51)</span></td>
+<td><span class="ranking-top-1">0.0469 (1.001)</span></td>
+<td><span class="ranking-top-1">0.0469 (1.001)</span></td>
+<td><span class="ranking-top-1">0.0469 (1.001)</span></td>
+<td><span class="ranking-top-1">0.04688 (1)</span></td>
+<td><span class="ranking-low-5">0.3055 (6.517)</span></td>
+<td><span class="ranking-top-1">0.0469 (1.001)</span></td>
+<td><span class="ranking-top-1">0.0469 (1.001)</span></td>
+<td><span class="ranking-top-1">0.0469 (1.001)</span></td>
+<td><span class="ranking-low-5">262.5 (5599)</span></td>
+<td><span class="ranking-top-1">0.0469 (1.001)</span></td>
+<td><span class="ranking-low-5">262.5 (5599)</span></td>
+<td><span class="ranking-top-1">0.0469 (1.001)</span></td>
+</tr>
+<tr><td><a class="reference external" href="/home/dgk98065/fitbenchmarking/results/NIST_average_difficulty/support_pages/nist_average_difficulty_misra1d_1.html">Misra1d 1</a></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-low-5">0.5366 (8.08)</span></td>
+<td><span class="ranking-low-5">1.344 (20.24)</span></td>
+<td><span class="ranking-low-5">1.344 (20.24)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-top-1">0.06641 (1)</span></td>
+<td><span class="ranking-low-5">1.344 (20.24)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-low-5">1.12 (16.86)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-low-5">1.12e+04 (1.687e+05)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+</tr>
+<tr><td><a class="reference external" href="/home/dgk98065/fitbenchmarking/results/NIST_average_difficulty/support_pages/nist_average_difficulty_misra1d_2.html">Misra1d 2</a></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-low-4">0.1339 (2.017)</span></td>
+<td><span class="ranking-low-4">0.1309 (1.971)</span></td>
+<td><span class="ranking-low-4">0.1309 (1.971)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-top-1">0.06641 (1)</span></td>
+<td><span class="ranking-low-4">0.1309 (1.971)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-low-5">2.152 (32.41)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+<td><span class="ranking-low-5">16.39 (246.8)</span></td>
+<td><span class="ranking-top-1">0.06644 (1)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>
+
