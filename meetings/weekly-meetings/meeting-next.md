@@ -6,4 +6,5 @@ Recurrent items
 
 New items
 ---------
+* How should the JSON file be processed? 
 * ...
