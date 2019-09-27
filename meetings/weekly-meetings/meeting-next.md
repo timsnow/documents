@@ -1,4 +1,4 @@
-Participants: 
+Participants: Tyrone Rees, Michael Wathen, Andrew Lister, Tim Snow, Andrew McLuskey, Tom Farmer, Anthony Lim
 
 Recurrent items
 ----------------
