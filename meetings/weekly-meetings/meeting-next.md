@@ -6,4 +6,4 @@ Recurrent items
 
 New items
 ---------
-* ...
+* Using slack better?
