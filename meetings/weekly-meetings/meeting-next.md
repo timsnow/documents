@@ -7,7 +7,6 @@ Recurrent items
 New items
 ---------
 * Using slack better?
-* Feb for first yearly meeting for 1:30, use doodle for more specific time
 * Make a reccurent item to discuss new issues?
 * Update on Andrew L's work reducing repeated code when calling minimizers
 * Ordering the data -- discuss the way forward
@@ -15,3 +14,6 @@ New items
 * Add a review checklist to the templates?
 * Tom to summarise Anders's meeting with Steve King
 
+Newest
+------
+* Feb for first yearly meeting for 1:30, use doodle for more specific time
