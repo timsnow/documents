@@ -3,6 +3,7 @@ Participants:
 Recurrent items
 ----------------
 * Any outstanding PRs?
+* Any specific issues?
 
 New items
 ---------
