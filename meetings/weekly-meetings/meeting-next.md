@@ -13,5 +13,5 @@ New items
 * Ordering the data -- discuss the way forward
 * Report on CMG's next sprint goals
 * Add a review checklist to the templates?
-* Tom to summarise Anders meeting with Steve King
+* Tom to summarise Anders's meeting with Steve King
 
