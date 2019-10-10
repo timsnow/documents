@@ -12,3 +12,4 @@ New items
 * PR testing process
 * Pylint static testing
 * Reminder heading?
+* Travis PR build times 
