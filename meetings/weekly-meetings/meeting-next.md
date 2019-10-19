@@ -8,7 +8,8 @@ Recurrent items
 New items
 ---------
 * Possible timeline for starting to consider global minimizer (like) problems? And with ref to https://github.com/fitbenchmarking/fitbenchmarking/issues/270
-* Developer documentation to include guidelines for merging in changes to master
+* Developer documentation to include guidelines for what need reviewing before going into master, https://github.com/fitbenchmarking/fitbenchmarking/blob/master/docs/source/contributors/guidelines.rst
+* update on domain name
 
 Reminder
 --------
