@@ -7,7 +7,7 @@ Recurrent items
 
 New items
 ---------
-* ..
+* Mantid fitting with Mantid data: how do we make a level playing field?
 
 Reminder
 --------
