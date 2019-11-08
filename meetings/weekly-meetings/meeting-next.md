@@ -9,6 +9,7 @@ New items
 ---------
 * Andrew L present on how to get options working
 * Input as needed for next sprint
+* Demo of fitbenchmarking.com, which documentation to point and timeline for wiki vs readthedocs documentation
 
 Reminder
 --------
