@@ -7,9 +7,8 @@ Recurrent items
 
 New items
 ---------
-* Mantid fitting with Mantid data: how do we make a level playing field?
-* Travis Environment Variables
-* User interface proposal (#260)
+* Andrew L present on how to get options working
+* Input as needed for next sprint
 
 Reminder
 --------
