@@ -4,7 +4,7 @@ Recurrent items
 ----------------
 * Any outstanding PRs?
 * Any specific issues?
-  - #291
+  - [https://github.com/fitbenchmarking/fitbenchmarking/issues/291](#291)
 
 New items
 ---------
