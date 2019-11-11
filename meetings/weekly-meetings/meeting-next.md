@@ -4,7 +4,7 @@ Recurrent items
 ----------------
 * Any outstanding PRs?
 * Any specific issues?
- - #291
+  - #291
 
 New items
 ---------
