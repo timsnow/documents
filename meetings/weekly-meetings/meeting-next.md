@@ -9,7 +9,7 @@ New items
 ---------
 * ...
 
-Reminder
---------
+Reminders
+---------
 * How it is going with adding SasView problem definition files?
 * Laying out an agenda for FIRST yearly Fitbenchmarking meeting:-)
