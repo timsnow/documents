@@ -7,6 +7,9 @@ Recurrent items
 
 New items
 ---------
+* Problem files
+  - NIST - Should we change headerline
+  - Fitbenchmark - Is this native fitbenchmarking or Mantid output?
 * ...
 
 Reminders
