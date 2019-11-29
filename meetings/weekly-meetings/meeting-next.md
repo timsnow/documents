@@ -7,6 +7,8 @@ Recurrent items
 
 New items
 ---------
+* MVP
+* JOSS (https://joss.readthedocs.io/en/latest/submitting.html#submission-requirements) 
 * Laying out an agenda for FIRST yearly Fitbenchmarking meeting
 * Andrew's M front web site
 * Anything for next sprint?
