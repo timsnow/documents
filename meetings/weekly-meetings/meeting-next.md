@@ -4,16 +4,14 @@ Recurrent items
 ----------------
 * Any outstanding PRs?
 * Any specific issues?
+* Anything for next sprint?
 
 New items
 ---------
-* MVP
-* JOSS (https://joss.readthedocs.io/en/latest/submitting.html#submission-requirements) 
-* Laying out an agenda for FIRST yearly Fitbenchmarking meeting
-* Andrew's M front web site
-* Anything for next sprint?
+* Feedback to Andrew's M web site (moved over from previous week)
 
 Reminders
 ---------
 * How it is going with adding SasView problem definition files?
+* Laying out an agenda for FIRST yearly Fitbenchmarking meeting
 
