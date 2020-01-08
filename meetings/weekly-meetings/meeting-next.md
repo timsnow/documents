@@ -9,6 +9,8 @@ Recurrent items
 New items
 ---------
 * Feedback to Andrew's M web site (moved over from previous week)
+* Multi-model/data support:
+  - Discuss definition and whether either of these are already addressed
 
 Reminders
 ---------
